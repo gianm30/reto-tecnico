@@ -1,0 +1,7 @@
+api.cliente:
+  encriptar: http://127.0.0.1:9090/encriptar/{codigo_unico}
+  listar: http://127.0.0.1:9090
+  obtenerClientePorCodigoUnico: http://127.0.0.1:9090/id?codigo_unico={codigo_unico}
+  crear: http://127.0.0.1:9090
+  modificar: http://127.0.0.1:9090
+  eliminar: http://127.0.0.1:9090?codigo_unico={codigo_unico}

@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:9090}
+
+spring:
+  application:
+    name: reto-tecnico-api-backend
+  h2:
+    console:
+      enabled: ${H2_ENABLED:true}
+  datasource:
+    url: ${BD_URL:jdbc:h2:file:D:/data/demo}
+    username: ${BD_USUARIO:sa}
+    password: ${BD_CLAVE:sa}
+    driverClassName: ${BD_DRIVER:org.h2.Driver}
+  jpa:
+    spring.jpa.database-platform: ${BD_DIALECT:org.hibernate.dialect.H2Dialect}
+    generate-ddl: ${BD_AUTO_GENERATE:true}

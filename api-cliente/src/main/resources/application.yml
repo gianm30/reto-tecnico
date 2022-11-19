@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:8090}
+
+spring:
+  application:
+    name: reto-tecnico-api-cliente
